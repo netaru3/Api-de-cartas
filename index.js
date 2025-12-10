@@ -1,5 +1,5 @@
 import express from 'express';
-import {log} from './mongo.js'
+import {log} from './mongo.js';
 import dotenv from 'dotenv'
 dotenv.config()
 let apikey= process.env.API_KEY
