@@ -10,5 +10,5 @@ res.json(carta)
 console.log(carta)
 })
 
-app.listen(3000)
+app.listen(process.env.PORT || 3000)
 
