@@ -11,7 +11,7 @@ console.log(carta)
 })
 
 app.get("/",function(req,res){
- res.send("holaa")
+ res.send("holiwis")
 })
 
 app.listen(process.env.PORT || 3000)
