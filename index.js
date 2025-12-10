@@ -10,5 +10,9 @@ res.json(carta)
 console.log(carta)
 })
 
+app.get("/",function(req,res){
+ res.send("holaa")
+})
+
 app.listen(process.env.PORT || 3000)
 
