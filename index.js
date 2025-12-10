@@ -1,4 +1,4 @@
-import express from 'express'
+import express from 'express';
 import {log} from './mongo.js'
 import dotenv from 'dotenv'
 dotenv.config()
