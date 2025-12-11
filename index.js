@@ -4,7 +4,7 @@ import dotenv from 'dotenv'
 dotenv.config()
 let apikey= "jejejmenx3"
 const app= express()
-app.get(`${apikey}/:nombre`,async function(req,res){
+app.get(`/${apikey}/:nombre`,async function(req,res){
    let carta=await log.find({nombre: req.params.nombre})
 res.json(carta)
 console.log(carta)
