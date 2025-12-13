@@ -10,9 +10,11 @@ res.json(carta)
 console.log(carta)
 })
 
-app.get("/",function(req,res){
- res.send("holiwis")
+app.get(`/${apikey}`,async function(req,res){
+ let carta= await log.find({})
+ res.json(carta)
 })
+
 
 app.listen(process.env.PORT || 3000)
 
