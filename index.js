@@ -16,6 +16,7 @@ res.json(carta)
 console.log(carta)
 })
 
+
 app.get(`/${apikey}`,async function(req,res){
  let carta= await log.find({})
  res.json(carta)
