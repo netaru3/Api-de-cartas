@@ -22,6 +22,7 @@ let esquema= new mongoose.Schema({
     cooldown:{type:Number,
         required: false},
     tipo_de_movimiento: String,
+    rango: String
 
 })
 
